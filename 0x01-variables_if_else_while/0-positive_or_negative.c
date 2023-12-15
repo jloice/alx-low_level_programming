@@ -4,7 +4,7 @@
 /**
  * main -Determine if a random is positve, negative or zero
  *
- * Return: Always 0 (Success)
+ * Return:0 on success
  */
 int main(void)
 {
@@ -12,7 +12,6 @@ int main(void)
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	if (n> 0)
 	{
 		printf("%d is positive\n", n);
